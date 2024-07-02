@@ -1,15 +1,21 @@
 /* Стилизация аккордеона */
-@import '../../assets/css/main.css';
-@import '../../assets/fonts/fonts.css';
+
 
 .accordion {
-    max-width: 600px;
+       color: var(--black, #212429);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
       }
   
   .accordion__item {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 8px;    
+    margin-bottom: 8px;
+    padding: 24px 32px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;  
   }
 
   .accordion__item:last-child{
@@ -17,8 +23,6 @@
   }
 
   .accordion__summary {
-    font-size: 16px;
-    padding: 24px 32px;
     list-style: none;
   }
 
@@ -27,8 +31,8 @@
   }
 
   .accordion__content {
-    margin-top: 0;
-    padding: 0 32px;   
-    background-color: #fff;
+    color: var(--grey-4, #495057);
+    margin: 0;
+    margin-right: 17px;
   }
  
