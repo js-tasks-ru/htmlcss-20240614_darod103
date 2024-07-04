@@ -21,7 +21,9 @@
   .accordion__item:last-child{
     margin-bottom: 0;
   }
-
+.accordion__item[open]{
+  padding-bottom: 32px;
+}
   .accordion__summary {
     list-style: none;
   }
