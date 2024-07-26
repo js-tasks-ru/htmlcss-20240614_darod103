@@ -7,6 +7,7 @@
 @import '../../components/page/page.css';
 @import '../../components/preview/preview.css';
 @import '../../components/container/container.css';
+@import '../../components/cards/cards.css';
 
 :root {
     --white: #ffffff;
@@ -29,4 +30,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
 }
